@@ -1,0 +1,13 @@
+[package]
+name = "ros_introspection"
+version = "0.1.0"
+authors = ["Esteve Fernandez <esteve@apache.org>"]
+edition = "2021"
+license = "Apache-2.0"
+description = "Parser for ROS .msg files"
+
+[dependencies]
+ament_rs = "0.3.0"
+anyhow = "1.0.98"
+regex = "1.11.1"
+
